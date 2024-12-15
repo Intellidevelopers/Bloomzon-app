@@ -91,7 +91,7 @@ export default function App() {
   // Fonts are loaded; render the app
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="TrialHome">
+      <Stack.Navigator initialRouteName="Welcome">
         <Stack.Screen name="Welcome" component={Welcome} options={{ headerShown: false }} />
         <Stack.Screen name="StoreCountries" component={StoreCountries} options={{ headerShown: false }} />
         <Stack.Screen name="Login" component={LoginScreen} options={{ headerShown: false }} />
